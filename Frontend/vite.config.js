@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://dsa-tracker-53yh.onrender.com',
         changeOrigin: true,
       }
     }
